@@ -475,11 +475,11 @@ Now lets validate the terraform files using
 terraform validate
 ```
 
-Lets plan the architecture
+Plan the architecture
 ```sh
 terraform plan
 ```
-Lets apply the above architecture to the AWS
+Applying the above architecture to our AWS
 ```sh
 terraform apply
 ```
