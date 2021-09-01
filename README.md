@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-In this project we are going to create VPC and EC2 instances through terraform, we need 3 EC2 instances one webserver, one db server and a bastion server that can give us ssh access to both webserver and db server. The database server is created in a private subnet and other instances are in public subnet.
+In this project we are going to create VPC and EC2 instances through terraform, we need 3 EC2 instances one webserver, one db server and a bastion server that can give us ssh access to both webserver and db server. The database server is created in a private subnet and other instances are in public subnet. All the instances are spread over 3 Avaialability Zones, the Availability Zones are automatically fetched via the data source.
 
 ## List of AWS resources created through terraform
 
