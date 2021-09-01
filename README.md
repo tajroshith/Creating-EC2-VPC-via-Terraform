@@ -69,7 +69,7 @@ vpc_cidr =   "X.X.X.X/X"
 sbit     =   "X"
 ```
 
-- User Customization
+#### User Customization
 
 Customization can be done in this file as per the requirements of the user which includes selecting the region, changing the project name & automating subnetting. All can be done in this single file.
 
