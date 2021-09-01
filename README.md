@@ -468,9 +468,10 @@ resource "aws_instance" "dbserver" {
     }
 }
 ```
-## Creating an output file (output.tf) to list the created resources
+Creating an output file (output.tf) to list the created resources
 
 ```sh
+
 output "aws_eip" {
 value = aws_eip.eip.public_ip
 }
